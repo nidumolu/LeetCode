@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.pushable-incr {
+  background: hsl(133, 90%, 4%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.pushable-incr-front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(93, 88%, 39%);
+  color: white;
+  transform: translateY(-6px);
+}
+
+.pushable-incr:active .front {
+  transform: translateY(-2px);
+}
+
+.pushable-decr {
+  background: hsl(0, 96%, 30%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.pushable-decr-front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(29, 79%, 49%);
+  color: white;
+  transform: translateY(-6px);
+}
+
+.pushable-decr:active .front {
+  transform: translateY(-2px);
+}
+
+.pushable-reset {
+  background: hsl(60, 94%, 28%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.pushable-reset-front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(53, 75%, 57%);
+  color: white;
+  transform: translateY(-6px);
+}
+
+.pushable-reset:active .front {
+  transform: translateY(-2px);
+}

@@ -13,4 +13,8 @@ async function sleep(millis) {
 
 sleep(200)
 
+
+function timeOut(timeout) {
+    setTimeout(()=>console.log(" time is Elapsed is:",Date.now() - t," and current date is", new Date(Date.now()).toDateString()), timeout)
+}
 //export default module;
